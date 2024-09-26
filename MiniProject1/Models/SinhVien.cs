@@ -3,7 +3,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MiniProject1.Models
 {
-		[Keyless]
 	public class SinhVien
 	{
 

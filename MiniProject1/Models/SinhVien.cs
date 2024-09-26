@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace MiniProject1.Models
 {
 	public class SinhVien
 	{
-
+		[Key]
 		public int MaSinhVien { get; set; }
 		public string HoTen { get; set; }
 		public string GioiTinh { get; set; }
